@@ -1,7 +1,7 @@
 name: garmin-sync-coros
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:on
   schedule:
     - cron: '0 0,6,19 * * ?'
 env:
